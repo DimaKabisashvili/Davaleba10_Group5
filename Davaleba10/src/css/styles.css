@@ -55,3 +55,33 @@ img {
   width: 100%;
   height: 80%;
 }
+
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.services h2 {
+  margin-bottom: 80px;
+}
+
+.services-headers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.services-paragraphs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.services h3,
+.services h4,
+.services h5 {
+  margin-bottom: 15px;
+  text-align: left;
+}
